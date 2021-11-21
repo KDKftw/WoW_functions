@@ -29,7 +29,7 @@ def vyprazdniRadek(radekCislo):
 
 def allInOne():
     radek2=350
-    for _ in range(10):
+    for _ in range(11):
         time.sleep(1)
 
         vyprazdniRadek(radek2)
