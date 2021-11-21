@@ -12,7 +12,7 @@ def vyprazdniRadek(radekCislo):
 
         p.moveTo(defaultX, radekCislo)
         #time.sleep(1)
-        time.sleep(4)
+        time.sleep(2)
         p.moveTo(defaultX, radekCislo)
         time.sleep(1)
         p.keyDown('alt')
@@ -20,7 +20,7 @@ def vyprazdniRadek(radekCislo):
         p.click(defaultX, radekCislo, button="right")
         defaultX = defaultX + posunX
         print(defaultX)
-        time.sleep(5)  ##at this point item in auction, waiting to scan, avg looks like 3-4secs max
+        time.sleep(3.5)  ##at this point item in auction, waiting to scan, avg looks like 3-4secs max
         p.moveTo(152, 442)
         time.sleep(1)
         p.click(152, 442)
