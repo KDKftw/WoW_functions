@@ -31,7 +31,7 @@ def allInOne():
         vyprazdniRadek(radek2)
         radek2 = radek2 + 43
         time.sleep(1)
-    if keyboard.is_pressed('c'):
-        break
+    #if keyboard.is_pressed('c'):
+     #   break
 
 allInOne()

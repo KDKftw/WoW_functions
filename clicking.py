@@ -8,6 +8,12 @@ def jenKlikej():
 
 jenKlikej()
 
+def jenKlikejRight():
+    while True:
+        p.click(button='right')
+        time.sleep(0.15)
+
+##jenKlikejRight()
 test = 5+1+3+1+13+11+12+5
 print(test)
 while True:
