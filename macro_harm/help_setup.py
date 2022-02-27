@@ -17,4 +17,4 @@ def helpHarmMacro(helpSpell, harmSpell):
     print("/cast [help,nodead][@player] "+helpSpell)
 
 
-helpHarmMacro("Nourish", "Faerie Fire")
+helpHarmMacro("Word of Glory", "Crusader Strike")
