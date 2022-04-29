@@ -4,7 +4,7 @@ import time
 def jenKlikej():
     while True:
         p.click()
-        time.sleep(1)
+        time.sleep(300)
 
 jenKlikej()
 
