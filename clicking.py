@@ -3,6 +3,7 @@ import time
 
 def jenKlikej():
     while True:
+        time.sleep(2)
         p.click()
         time.sleep(300)
 
