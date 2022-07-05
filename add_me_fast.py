@@ -12,6 +12,7 @@ def coinmarket():
         time.sleep(8)
 def tiktok():
      while True:
+        time.sleep(2)
         p.click(954, 517)
         time.sleep(8)
         p.click(350, 261)
